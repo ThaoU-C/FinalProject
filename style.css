@@ -19,7 +19,7 @@
 
 h1 {
     color: var(--brightred);
-    font-size: 50px;
+    font-size: 30px;
     font-family: var(--font3);
     text-align: center;
     /* position: fixed; */
@@ -27,10 +27,17 @@ h1 {
 
 }
 
+h2 {
+    font-family: var(--font2);
+    font-size: 18px;
+    text-align: center;
+    color: var(--gray);
+}
+
 h3 {
     font-family: var(--font3);
     text-align: center;
-    font-size: 30px;
+    font-size: 22px;
     color: var(--green);
 }
 
@@ -48,12 +55,12 @@ body {
 .textbox {
 background-color: var(--lightgrey);
 align-items: center;
-width: 800px;
-border-radius: 1vw;
-padding: 50px;
-margin: 30px;
+width: 600px;
+border-radius: 3vw;
+padding: 30px;
+margin: 50px;
 opacity: 85%;
-box-shadow: 0px 0px 25px var(--blue);
+box-shadow: 0px 0px 20px var(--blue);
 }
 
 p{
@@ -65,7 +72,8 @@ p{
 
 
 span {
-    font-size: 25px;
+    font-size: 20px;
+    /* font-style: italic; */
 }
 
 
@@ -75,7 +83,7 @@ a {
 }
 
 a:hover {
-    color: #f0b9a7;
+    color: var(--brightred);
 }
 
 
@@ -145,6 +153,11 @@ section {
     overflow: hidden;
 }
 
+.five {
+    padding: 0 2vw;
+    overflow: hidden;
+}
+
 .scroll-container {
     width: 100vw;
     height: 100vh;
@@ -161,7 +174,7 @@ li {
 /*------------- scroll texts  1----------*/
 .otter2 {
     background: url(./assets/otter-2.png);
-    margin-top: 7vh;
+    margin-top: 15vh;
     height: 35vw;
     width: 35vw;
     background-position: center;
@@ -177,7 +190,7 @@ li {
     padding: 5% 10%;
     background: lightgrey;
     align-items: center;
-    border-radius: 0.5vw;
+    border-radius: 2vw;
     box-shadow: 0px 0px 25px var(--blue);
     opacity: 92%;
 }
@@ -210,7 +223,7 @@ li {
     padding: 5% 10%;
     background: lightgrey;
     align-items: center;
-    border-radius: 1vw;
+    border-radius: 2vw;
     box-shadow: 0px 0px 25px var(--blue);
     opacity: 92%;
 }
@@ -243,7 +256,7 @@ li {
     padding: 5% 10%;
     background: lightgrey;
     align-items: center;
-    border-radius: 1vw;
+    border-radius: 2vw;
     box-shadow: 0px 0px 25px var(--blue);
     opacity: 92%;
 }
@@ -272,11 +285,11 @@ li {
     flex-direction: column;
     justify-content: center;
     height: 45vh;
-    margin-top: 25vh;
+    margin-top: 15vh;
     padding: 5% 10%;
     background: lightgrey;
     align-items: center;
-    border-radius: 1vw;
+    border-radius: 2vw;
     box-shadow: 0px 0px 25px var(--blue);
     opacity: 92%;
 }
@@ -287,6 +300,68 @@ li {
 
 .scroll-text-4 span {
     color: var(--red);
+}
+
+.gray-whale {
+    background: url(./assets/gray-whale.png);
+    margin-top: 15vh;
+    height: 28vw;
+    width: 28vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.scroll-text-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 45vh;
+    margin-top: 20vh;
+    padding: 5% 10%;
+    background: lightgrey;
+    align-items: center;
+    border-radius: 2vw;
+    box-shadow: 0px 0px 25px var(--blue);
+    opacity: 92%;
+}
+
+.scroll-text-5 h3 {
+    color: var(--green);
+}
+
+.scroll-text-5 span {
+    color: var(--green);
+}
+
+.other-fishes {
+    background: url(./assets/fishes.png);
+    margin-top: -5vh;
+    height: 32vw;
+    width: 32vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.scroll-text-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 45vh;
+    margin-top: 20vh;
+    padding: 5% 10%;
+    background: lightgrey;
+    align-items: center;
+    border-radius: 2vw;
+    box-shadow: 0px 0px 25px var(--blue);
+    opacity: 92%;
+}
+
+.scroll-text-6 h3 {
+    color: var(--green);
+}
+
+.scroll-text-6 span {
+    color: var(--green);
 }
 
 
@@ -312,38 +387,6 @@ li {
     justify-content: center;
     overflow: hidden;
     position: relative;
-}
-
-
-.scroll-text-6 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 70vh;
-    width: 50vw;
-    padding: 5% 10%;
-    background: var(--white);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1vw;
-    box-shadow: 0px 0px 20px var(--gray);
-    z-index: 5;
-}
-
-.scroll-text-6 h3 {
-    color: var(--blue);
-}
-
-.scroll-text-6 p {
-    line-height: 1.5em;
-    margin-bottom: 25px;
-}
-
-.scroll-text-6 span {
-    color: var(--blue);
 }
 
 .scroll-text-3 a:hover {
