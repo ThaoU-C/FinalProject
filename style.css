@@ -174,7 +174,7 @@ li {
 /*------------- scroll texts  1----------*/
 .otter2 {
     background: url(./assets/otter-2.png);
-    margin-top: 15vh;
+    margin-top: 20vh;
     height: 35vw;
     width: 35vw;
     background-position: center;
@@ -185,8 +185,8 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 45vh;
-    margin-top: 26vh;
+    height: 50vh;
+    margin-top: 25vh;
     padding: 5% 10%;
     background: lightgrey;
     align-items: center;
@@ -208,6 +208,7 @@ li {
 
 .seal2 {
     background: url(./assets/seal-2.png);
+    margin-top: 0vh;
     height: 35vw;
     width: 35vw;
     background-position: center;
@@ -218,7 +219,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 45vh;
+    height: 50vh;
     margin-top: 25vh;
     padding: 5% 10%;
     background: lightgrey;
@@ -240,7 +241,7 @@ li {
 /*------------- scroll texts 3 ----------*/
 .sea-cow {
     background: url(./assets/sea-cow.png);
-    margin-top: 85vh;
+    margin-top: 90vh;
     height: 30vw;
     width: 30vw;
     background-position: center;
@@ -284,7 +285,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 45vh;
+    height: 55vh;
     margin-top: 15vh;
     padding: 5% 10%;
     background: lightgrey;
@@ -357,11 +358,11 @@ li {
 }
 
 .scroll-text-6 h3 {
-    color: var(--green);
+    color: var(--brightred);
 }
 
 .scroll-text-6 span {
-    color: var(--green);
+    color: var(--brightred);
 }
 
 
