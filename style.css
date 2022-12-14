@@ -103,18 +103,18 @@ a:hover {
    width: 100vw;
 }
 
-.img-set2{
+/* .img-set2{
     width: 700px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
- }
+ } */
 
- .work-img2{
+ /* .work-img2{
     flex: 0 1 auto;
     padding-top: 60px;
-    }
+    } */
 
 .bio-contain{
   max-width: 45%;
@@ -368,16 +368,16 @@ li {
 
 .imgContent {
     display: flex;
-    align-items: start;
     justify-content: center;
+    align-items: start;
     overflow: hidden;
 }
 
 .three .imgContent {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: end;
-    justify-content: center;
 }
 
 
@@ -390,13 +390,6 @@ li {
     position: relative;
 }
 
-.scroll-text-3 a:hover {
-    color: var(--white);
-    background: var(--blue);
-    padding: 10px;
-    border-radius: 5px;
-    transition: ease-in-out 0.2s;
-}
 
 .copyright {
     text-decoration: none;
