@@ -273,7 +273,7 @@ li {
 /*------------- scroll texts 4 ----------*/
 .sea-lion {
     background: url(./assets/sea-lion.png);
-    margin-top: 10vh;
+    margin-top: -5vh;
     height: 30vw;
     width: 30vw;
     background-position: center;
