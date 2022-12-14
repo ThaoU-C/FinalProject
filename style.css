@@ -274,7 +274,7 @@ li {
 /*------------- scroll texts 4 ----------*/
 .sea-lion {
     background: url(./assets/sea-lion.png);
-    margin-top: -5vh;
+    margin-top: 10vh;
     height: 30vw;
     width: 30vw;
     background-position: center;
@@ -305,9 +305,9 @@ li {
 
 .gray-whale {
     background: url(./assets/gray-whale.png);
-    margin-top: 15vh;
-    height: 28vw;
-    width: 28vw;
+    margin-top: 5vh;
+    height: 33vw;
+    width: 33vw;
     background-position: center;
     background-size: cover;
 }
